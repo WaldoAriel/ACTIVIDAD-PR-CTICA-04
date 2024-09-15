@@ -1,16 +1,24 @@
-html{
-    font-family: Arial, Helvetica, sans-serif;
+*{
+    margin: 0;
+    padding: 0;
 }
-body{
+html body{
+    font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(255, 255, 255);
 }
-header{
+
+header {
     background-image: url(./img/enc_celular.webp);
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 270px;
     width: 100%;
+    height: auto; 
+    padding-top: 45%;
+}
+
+h1{
+    display: none;
 }
 .charly{
     background-color: rgb(240, 240, 135);
