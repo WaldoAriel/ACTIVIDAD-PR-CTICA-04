@@ -31,13 +31,33 @@ article{
     display: flex;
     align-items: center;
     background-color: rgb(240, 240, 135);
-    margin: 12px 0 4px;
+    
 }
 article img{
     display: block;
     max-height: 120px;
     object-fit: cover;
     margin-right: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+article img:hover {
+    transform: scale(1.1);
+}
+
+article.charly img:hover {
+    content: url('./img/charly_v.webp');
+}
+
+article.moro img:hover {
+    content: url('./img/moro_v.webp');
+}
+
+article.david img:hover {
+    content: url('./img/david_v.webp');
+}
+
+article.pedro img:hover {
+    content: url('./img/pedro_v.webp');
 }
 article .info{
     flex-grow: 1;
