@@ -1,135 +1,133 @@
 *{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 html body {
-    font-family: "Atkinson Hyperlegible", sans-serif;
-    font-size: 0.85em;
-    background-color: rgb(170, 40, 40);
-    
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-size: 0.85em;
+  background-color: rgb(170, 40, 40);
+
 }
 
 header {
-    background-image: url(./img/enc_celular.webp);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: auto; 
-    padding-top: 45%;
+  background-image: url(./img/enc_celular.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto; 
+  padding-top: 45%;
 }
 
 h1 {
-    display: none;
+  display: none;
 }
 section {
-    background-color: rgb(100, 100, 100);
-    display: flex;    
-    flex-direction: column;
-    padding: 8px 0 8px 0;
+  background-color: rgb(100, 100, 100);
+  display: flex;    
+  flex-direction: column;
+  padding: 8px 0 8px 0;
 }
 main{
-    background-color: white;
+  background-color: white;
 }
 article {
-    display: flex;
-    align-items: center;
-    box-shadow: inset -4px 4px 20px 0px rgba(46, 46, 46, 0.7);
-    padding-right: 8px;
+  display: flex;
+  align-items: center;
+  box-shadow: inset -4px 4px 20px 0px rgba(46, 46, 46, 0.7);
+  padding-right: 8px;
 }
 article:hover{
-    display: flex;
-    align-items: center;
-    box-shadow: inset -4px 8px 30px 0px rgba(46, 46, 46, 0.7)
+  display: flex;
+  align-items: center;
+  box-shadow: inset -4px 8px 30px 0px rgba(46, 46, 46, 0.7)
 }
 .charly {
-    background-color: rgb(240, 240, 135);
+  background-color: rgb(240, 240, 135);
 }
 .moro {
-    background-color: rgb(240, 170, 110);
+  background-color: rgb(240, 170, 110);
 }
 .david {
-    background-color: rgb(140, 240, 220);
+  background-color: rgb(140, 240, 220);
 }
 .pedro {
-    background-color: rgb(180, 220, 90);
+  background-color: rgb(180, 220, 90);
 }
 
 article img{
-    display: block;
-    max-height: 120px;
-    object-fit: cover;
-    margin-right: 8px;
-    transition: all 0.5s ease-in-out;
-    box-shadow: 0px 10px 20px 0px rgba(46, 46, 46, 0.7);
+  display: block;
+  max-height: 120px;
+  object-fit: cover;
+  margin-right: 8px;
+  transition: all 0.5s ease-in-out;
+  box-shadow: 0px 10px 20px 0px rgba(46, 46, 46, 0.7);
 }
 article img:hover {
-    transform: scale(0.9);
-    
+  transform: scale(0.9);
+
 }
 
 article.charly img:hover {
-    border-radius: 65px;
-    content: url('./img/charly_v.webp');
-    filter: opacity(.5);
-    
+  border-radius: 65px;
+  content: url('./img/charly_v.webp');
 }
 
 article.moro img:hover {
-    border-radius: 50%;
-    content: url('./img/moro_v.webp');
+  border-radius: 50%;
+  content: url('./img/moro_v.webp');
 }
 
 article.david img:hover {
-    border-radius: 65px;
-    content: url('./img/david_v.webp');
+  border-radius: 65px;
+  content: url('./img/david_v.webp');
 }
 
 article.pedro img:hover {
-    border-radius: 65px;
-    content: url('./img/pedro_v.webp');
+  border-radius: 65px;
+  content: url('./img/pedro_v.webp');
 }
 article .info{
-    flex-grow: 1;
+  flex-grow: 1;
 }
 article .info h2{
-    font-size: 1.2em;
-    margin-bottom: 10px;
+  font-size: 1.2em;
+  margin-bottom: 10px;
 }
 article .info p{
-    font-size: 0.75em;
-    line-height: 1.2;
+  font-size: 0.75em;
+  line-height: 1.2;
 }
 
 .bio {
-    display: inline-block;
-    background-color: white;
-    padding: 20px;
-    box-shadow: none;
+  display: inline-block;
+  background-color: white;
+  padding: 20px;
+  box-shadow: none;
 }
 .bio:hover {
-    display: inline-block;
-    box-shadow: none;
+  display: inline-block;
+  box-shadow: none;
 }
 
 .pie1{
-    display: flex;
-    background-color: rgb(170, 40, 40);
-    color: white;
-    height: 60px;
-    justify-content: center;
-    align-items: center;
-    padding: 12px;
-    position:sticky;
-    z-index: 1;
+  display: flex;
+  background-color: rgb(170, 40, 40);
+  color: white;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  position:sticky;
+  z-index: 1;
 }
 
 .pie2 p{
-    display: flex;
-    background-color: rgb(170, 40, 40);
-    color: white;
-    height: auto;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  background-color: rgb(170, 40, 40);
+  color: white;
+  height: auto;
+  align-items: center;
+  justify-content: center;
 }
