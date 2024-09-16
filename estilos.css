@@ -38,10 +38,10 @@ article img{
     max-height: 120px;
     object-fit: cover;
     margin-right: 8px;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.45s ease-in-out;
 }
 article img:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 article.charly img:hover {
@@ -67,7 +67,7 @@ article .info h2{
     margin-bottom: 10px;
 }
 article .info p{
-    font-size: 1em;
+    font-size: 0.7em;
     line-height: 1.4;
 }
 
