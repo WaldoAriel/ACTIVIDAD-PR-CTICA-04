@@ -30,7 +30,7 @@ section {
   flex-direction: column;
   padding: 8px 0 8px 0;
 }
-main{
+main {
   background-color: white;
 }
 article {
@@ -39,7 +39,7 @@ article {
   box-shadow: inset -4px 4px 20px 0px rgba(46, 46, 46, 0.7);
   padding-right: 8px;
 }
-article:hover{
+article:hover {
   display: flex;
   align-items: center;
   box-shadow: inset -4px 8px 30px 0px rgba(46, 46, 46, 0.7)
@@ -57,7 +57,7 @@ article:hover{
   background-color: rgb(180, 220, 90);
 }
 
-article img{
+article img {
   display: block;
   max-height: 120px;
   object-fit: cover;
@@ -83,14 +83,14 @@ article.david img:hover {
 article.pedro img:hover {
   content: url('./img/pedro_v.webp');
 }
-article .info{
+article .info {
   flex-grow: 1;
 }
-article .info h2{
+article .info h2 {
   font-size: 1.2em;
   margin-bottom: 10px;
 }
-article .info p{
+article .info p {
   font-size: 0.75em;
   line-height: 1.2;
 }
@@ -102,7 +102,7 @@ article .info p{
   box-shadow: none;
 }
 
-.pie1{
+.pie1 {
   display: flex;
   background-color: rgb(170, 40, 40);
   color: white;
@@ -114,7 +114,7 @@ article .info p{
   z-index: 1;
 }
 
-.pie2 p{
+.pie2 p {
   display: flex;
   background-color: rgb(170, 40, 40);
   color: white;
@@ -144,7 +144,7 @@ article .info p{
         flex: 0 0 48.5%;
         font-size: 1.2em;
     }
-    article img{
+    article img {
         display: block;
         max-height: 180px;
         object-fit: cover;
@@ -184,7 +184,7 @@ article .info p{
         font-size: 1.1em;
         margin: 15px;
     }
-    article img{
+    article img {
         display: block;
         max-height: 150px;
         object-fit: cover;
